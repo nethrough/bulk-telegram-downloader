@@ -1,8 +1,7 @@
 # 📽️ **Telegram Media Downloader** 
 
 ---
-
-![Telegram Logo](https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" width="150"/>
 
 ## Overview
 
