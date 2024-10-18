@@ -123,15 +123,13 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
 
 ### ❗ Common Issues
 
-<ul>
-    <li><strong>API Credentials Not Working:</strong> Ensure you have copied your API ID and API Hash correctly from the <a href="https://my.telegram.org/apps">Telegram API Development page</a>.</li>
+- **API Credentials Not Working:** Ensure you have copied your API ID and API Hash correctly from the [Telegram API Development page](https://my.telegram.org/apps).
   
-    <li><strong>Group Not Found:</strong> Verify the group name is correct and that you are a member of the group.</li>
+- **Group Not Found:** Verify the group name is correct and that you are a member of the group.
 
-    <li><strong>Permission Errors:</strong> Ensure the specified download directory exists and that you have write permissions.</li>
+- **Permission Errors:** Ensure the specified download directory exists and that you have write permissions.
 
-    <li><strong>Module Not Found:</strong> If you encounter a <code>ModuleNotFoundError</code>, ensure you have installed the required libraries using <code>pip</code>.</li>
-</ul>
+- **Module Not Found:** If you encounter a `ModuleNotFoundError`, ensure you have installed the required libraries using `pip`.
 
 ---
 
