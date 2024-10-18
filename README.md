@@ -2,7 +2,7 @@
 
 ---
 
-![Telegram Logo](https://upload.wikimedia.org/wikipedia/commons/8/8c/Telegram_logo.svg)
+![Telegram Logo](https://commons.wikimedia.org/wiki/File:Telegram_logo.svg)
 
 ## Overview
 
