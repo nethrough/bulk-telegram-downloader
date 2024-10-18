@@ -1,7 +1,10 @@
 # 📽️ **Telegram Media Downloader** 
 
 ---
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" width="150"/>
+
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" width="150"/>
+</div>
 
 ## Overview
 
@@ -9,10 +12,12 @@ Welcome to the **Telegram Media Downloader** repository! This project contains P
 
 ### ✨ Features
 
-- **🔍 Search for Groups:** Find Telegram groups by name and retrieve their unique IDs.
-- **📥 Download Media:** Download all video files from a specified Telegram group.
-- **⏳ Progress Tracking:** Visualize the download progress for each video file.
-- **📦 Zip Files:** Compress downloaded videos into a zip file for easy storage.
+<ul>
+    <li><strong>🔍 Search for Groups:</strong> Find Telegram groups by name and retrieve their unique IDs.</li>
+    <li><strong>📥 Download Media:</strong> Download all video files from a specified Telegram group.</li>
+    <li><strong>⏳ Progress Tracking:</strong> Visualize the download progress for each video file.</li>
+    <li><strong>📦 Zip Files:</strong> Compress downloaded videos into a zip file for easy storage.</li>
+</ul>
 
 ---
 
@@ -22,16 +27,18 @@ Welcome to the **Telegram Media Downloader** repository! This project contains P
 
 Ensure you have the following installed:
 
-- **Python:** Version 3.7 or higher
-- **Libraries:** Telethon, tqdm
+<ul>
+    <li><strong>Python:</strong> Version 3.7 or higher</li>
+    <li><strong>Libraries:</strong> Telethon, tqdm</li>
+</ul>
 
 ## Installation
 
 ### 🛠️ **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/telegram-media-downloader.git
-cd telegram-media-downloader
+git clone https://github.com/nethrough/bulk-telegram-downloader.git
+cd bulk-telegram-downloader
 ```
 
 ### 🛠️ **Step 2: Install Required Libraries**
@@ -55,9 +62,11 @@ pip install telethon tqdm
 3. **Create a New Application:**
    - Click on “Create Application.”
    - Fill in the required fields:
-     - **App Title:** Choose a name for your app.
-     - **Short Name:** A short version of the title.
-     - **URL:** This can be a placeholder (e.g., `http://example.com`).
+     <ul>
+         <li><strong>App Title:</strong> Choose a name for your app.</li>
+         <li><strong>Short Name:</strong> A short version of the title.</li>
+         <li><strong>URL:</strong> This can be a placeholder (e.g., <code>http://example.com</code>).</li>
+     </ul>
 
 4. **Retrieve Your API ID and API Hash:**
    - Once your app is created, you will see your **API ID** and **API Hash**. Keep these confidential as they are essential for authenticating your application.
@@ -89,7 +98,7 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
    To search for a Telegram group by its name, run the following command:
 
    ```bash
-   python search_group.py  # Replace with the actual filename of your search script
+   python find_group_id.py  # Replace with the actual filename of your search script
    ```
 
    - **Output:** If the group is found, the script will display the group's ID.
@@ -99,7 +108,7 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
    To download all video files from a specified Telegram group, execute the following command:
 
    ```bash
-   python download_videos.py  # Replace with the actual filename of your download script
+   python video_downloader.py  # Replace with the actual filename of your download script
    ```
 
    - **Progress Tracking:** As videos are downloaded, you will see a progress bar in the console for each file.
@@ -114,13 +123,15 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
 
 ### ❗ Common Issues
 
-- **API Credentials Not Working:** Ensure you have copied your API ID and API Hash correctly from the [Telegram API Development page](https://my.telegram.org/apps).
+<ul>
+    <li><strong>API Credentials Not Working:</strong> Ensure you have copied your API ID and API Hash correctly from the <a href="https://my.telegram.org/apps">Telegram API Development page</a>.</li>
   
-- **Group Not Found:** Verify the group name is correct and that you are a member of the group.
+    <li><strong>Group Not Found:</strong> Verify the group name is correct and that you are a member of the group.</li>
 
-- **Permission Errors:** Ensure the specified download directory exists and that you have write permissions.
+    <li><strong>Permission Errors:</strong> Ensure the specified download directory exists and that you have write permissions.</li>
 
-- **Module Not Found:** If you encounter a `ModuleNotFoundError`, ensure you have installed the required libraries using `pip`.
+    <li><strong>Module Not Found:</strong> If you encounter a <code>ModuleNotFoundError</code>, ensure you have installed the required libraries using <code>pip</code>.</li>
+</ul>
 
 ---
 
@@ -132,9 +143,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- [Telethon](https://docs.telethon.dev/) - The library used to interact with the Telegram API.
-- [tqdm](https://tqdm.github.io/) - For progress bar functionality.
+- <a href="https://docs.telethon.dev/">Telethon</a> - The library used to interact with the Telegram API.
+- <a href="https://tqdm.github.io/">tqdm</a> - For progress bar functionality.
 
 ---
 
-## 🌟 **Happy Coding!** 🌟
+<div align="center">
+    <h3>🌟 Happy Coding! 🌟</h3>
+</div>
