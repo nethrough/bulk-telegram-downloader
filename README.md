@@ -1,9 +1,12 @@
-# 📽️ **Telegram BULK VIDEO Downloader** 
+# 📽️ **Telegram Media Downloader** 
 
+---
+
+![Telegram Logo](https://upload.wikimedia.org/wikipedia/commons/8/8c/Telegram_logo.svg)
 
 ## Overview
 
-Welcome to the **Telegram BULK VIDEO Downloader** repository! This project contains Python scripts that utilize the **Telethon** library to interact with the Telegram API, enabling you to search for Telegram groups and download videos from them seamlessly.
+Welcome to the **Telegram Media Downloader** repository! This project contains Python scripts that utilize the **Telethon** library to interact with the Telegram API, enabling you to search for Telegram groups and download videos from them seamlessly.
 
 ### ✨ Features
 
@@ -28,8 +31,8 @@ Ensure you have the following installed:
 ### 🛠️ **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/nethrough/bulk-telegram-downloader.git
-cd bulk-telegram-downloader
+git clone https://github.com/yourusername/telegram-media-downloader.git
+cd telegram-media-downloader
 ```
 
 ### 🛠️ **Step 2: Install Required Libraries**
@@ -40,9 +43,29 @@ Install the necessary libraries using pip:
 pip install telethon tqdm
 ```
 
+## Create Your Telegram App API
+
+### 🛠️ **Step 3: Obtain API Credentials**
+
+1. **Go to the Telegram API Development page:**
+   - Visit [my.telegram.org/apps](https://my.telegram.org/apps).
+   
+2. **Log in with Your Phone Number:**
+   - Enter your phone number and verify the code sent to your Telegram app.
+
+3. **Create a New Application:**
+   - Click on “Create Application.”
+   - Fill in the required fields:
+     - **App Title:** Choose a name for your app.
+     - **Short Name:** A short version of the title.
+     - **URL:** This can be a placeholder (e.g., `http://example.com`).
+
+4. **Retrieve Your API ID and API Hash:**
+   - Once your app is created, you will see your **API ID** and **API Hash**. Keep these confidential as they are essential for authenticating your application.
+
 ## Configuration
 
-### ⚙️ **Step 3: Configure Your Settings**
+### ⚙️ **Step 4: Configure Your Settings**
 
 Before running the scripts, modify your API credentials and other parameters in the respective script files. 
 
@@ -60,14 +83,14 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
 
 ## Usage
 
-### 🏃‍♂️ **Step 4: Run the Scripts**
+### 🏃‍♂️ **Step 5: Run the Scripts**
 
 1. **Search for a Group:**
 
    To search for a Telegram group by its name, run the following command:
 
    ```bash
-   python find_group_id.py  # Replace with the actual filename of your search script
+   python search_group.py  # Replace with the actual filename of your search script
    ```
 
    - **Output:** If the group is found, the script will display the group's ID.
@@ -77,7 +100,7 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
    To download all video files from a specified Telegram group, execute the following command:
 
    ```bash
-   python video_downloader.py  # Replace with the actual filename of your download script
+   python download_videos.py  # Replace with the actual filename of your download script
    ```
 
    - **Progress Tracking:** As videos are downloaded, you will see a progress bar in the console for each file.
