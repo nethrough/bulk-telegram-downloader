@@ -28,8 +28,8 @@ Ensure you have the following installed:
 ### 🛠️ **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/telegram-media-downloader.git
-cd telegram-media-downloader
+git clone https://github.com/nethrough/bulk-telegram-downloader.git
+cd bulk-telegram-downloader
 ```
 
 ### 🛠️ **Step 2: Install Required Libraries**
@@ -67,7 +67,7 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
    To search for a Telegram group by its name, run the following command:
 
    ```bash
-   python search_group.py  # Replace with the actual filename of your search script
+   python find_group_id.py  # Replace with the actual filename of your search script
    ```
 
    - **Output:** If the group is found, the script will display the group's ID.
@@ -77,7 +77,7 @@ group_id = 'YOUR_GROUP_ID'  # Use your group ID here
    To download all video files from a specified Telegram group, execute the following command:
 
    ```bash
-   python download_videos.py  # Replace with the actual filename of your download script
+   python video_downloader.py  # Replace with the actual filename of your download script
    ```
 
    - **Progress Tracking:** As videos are downloaded, you will see a progress bar in the console for each file.
